@@ -120,3 +120,10 @@ Generate a CSV table with the following columns (derived from the `public.module
 | `python_command` | text | The Python command to run it |
 
 **Final Output**: Present your evaluation report detailing your findings for Step 1 and Step 2. If the repository is compatible, conclude with the Step 3 CSV block containing the extracted schema data.
+
+#### Example CSV Output
+
+```csv
+name,icon_emoji,pip_name,module_name,module_path,difficulty,download_count,contributor_id,status,os,device_id,python_versions,is_tested_with_ivoryos,is_unlisted,init_args,is_original_developer,connection,start_command,description,python_command
+"Ika Thermoshaker",,ika,Thermoshaker,ika.thermoshaker,,9,009e37d3-608d-403f-bc4b-4fbee4ccd4fc,,Windows,6,,true,false,"[{""name"": ""port"", ""type"": ""str""}, {""name"": ""dummy"", ""type"": ""bool""}]",false,"usb,serial",,,
+```
